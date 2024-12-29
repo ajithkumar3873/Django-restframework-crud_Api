@@ -20,4 +20,4 @@ update(patch) request - http://localhost:8000/inventory/products/<id>/
 }
 <br>
 
-delete request - http://127.0.0.1:8000/inventory/products/<id>/
+delete request - http://localhost:8000/inventory/products/<id>/
