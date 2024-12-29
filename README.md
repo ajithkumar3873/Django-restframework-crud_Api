@@ -1,4 +1,4 @@
-post -http://127.0.0.1:8000/inventory/products/all/
+post -http://localhost:8000/inventory/products/all/
 
 {
     "product_name": "Tab",
@@ -6,16 +6,16 @@ post -http://127.0.0.1:8000/inventory/products/all/
     "price": 10000
 }
 <br>
-get - http://127.0.0.1:8000/inventory/products/
+get - http://localhost:8000/inventory/products/
 
 <br>
 getby id
 
-http://127.0.0.1:8000/inventory/products/<id>/
+http://localhost:8000/inventory/products/<id>/
 
 <br>
 update(patch)
-http://127.0.0.1:8000/inventory/products/<id>/
+http://localhost:8000/inventory/products/<id>/
 
 {
     "product_name": "product 1",
