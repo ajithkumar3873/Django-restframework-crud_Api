@@ -7,7 +7,7 @@ post request-http://localhost:8000/inventory/products/all/
 <br>
 
 get request- http://localhost:8000/inventory/products/
-<br
+<br>
     
 getby id request - http://localhost:8000/inventory/products/<id>/
 <br>
