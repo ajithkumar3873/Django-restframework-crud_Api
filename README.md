@@ -9,10 +9,10 @@ post request-http://localhost:8000/inventory/products/all/
 get request- http://localhost:8000/inventory/products/
 <br>
     
-getby id request - http://localhost:8000/inventory/products/<id>/
+getby id request - http://localhost:8000/inventory/products/id/
 <br>
 
-update(patch) request - http://localhost:8000/inventory/products/<id>/
+update(patch) request - http://localhost:8000/inventory/products/id/
 {
     "product_name": "product 1",
     "code": "a200",
@@ -20,4 +20,4 @@ update(patch) request - http://localhost:8000/inventory/products/<id>/
 }
 <br>
 
-delete request - http://localhost:8000/inventory/products/<id>/
+delete request - http://localhost:8000/inventory/products/id/
