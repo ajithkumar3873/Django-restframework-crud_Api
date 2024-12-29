@@ -19,4 +19,5 @@ update(patch) request - http://localhost:8000/inventory/products/<id>/
     "price": 10000
 }
 <br>
+
 delete request - http://127.0.0.1:8000/inventory/products/<id>/
